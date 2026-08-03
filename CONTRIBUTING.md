@@ -1,4 +1,4 @@
-# Contributing to Ddumba Abdallah Kato's Portfolio
+# Contributing to Daniel Liu Kato's Portfolio
 
 Thank you for your interest in contributing to my portfolio! Here are some guidelines to help you get started.
 
@@ -26,7 +26,7 @@ Thank you for your interest in contributing to my portfolio! Here are some guide
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/abdallahddumbakato/my-portfolio.git
+git clone https://github.com/danielliu/my-portfolio.git
 cd my-portfolio
 Install dependencies:
 
@@ -46,4 +46,4 @@ Write meaningful commit messages
 Test your changes before submitting
 
 Questions?
-Feel free to contact me at a.ddumba@kyakabi.com
+Feel free to contact me at ehhsgd667@gmail.com

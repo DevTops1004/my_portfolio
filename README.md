@@ -1,11 +1,11 @@
 <div align="center">
 
-  # Ddumba Abdallah Kato's Portfolio 🚀
+  # Daniel Liu Kato's Portfolio 🚀
 
-  [![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Fddumba.kyakabi.com)](https://ddumba.kyakabi.com)
-  [![GitHub followers](https://img.shields.io/github/followers/abdallahddumbakato?logo=github&style=for-the-badge)](https://github.com/abdallahddumbakato)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdallahddumbakato)
-  [![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://ddumba.kyakabi.com)
+  [![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Fddumba.kyakabi.com)](http://localhost:3000)
+  [![GitHub followers](https://img.shields.io/github/followers/danielliu?logo=github&style=for-the-badge)](https://github.com/danielliu)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/danielliu)
+  [![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](http://localhost:3000)
   [![Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 
   <p align="center">
@@ -14,7 +14,7 @@
 
   <h3>Software Developer | Full Stack Specialist | Cloud Enthusiast</h3>
 
-  [View Live Demo](https://ddumba.kyakabi.com) · [Report Bug](https://github.com/abdallahddumbakato/my-portfolio/issues) · [Request Feature](https://github.com/abdallahddumbakato/my-portfolio/issues)
+  [View Live Demo](http://localhost:3000) · [Report Bug](https://github.com/danielliu/my-portfolio/issues) · [Request Feature](https://github.com/danielliu/my-portfolio/issues)
 
 </div>
 
@@ -56,7 +56,7 @@ A modern, responsive portfolio website showcasing my journey as a Software Devel
 
 
 # Clone the repository
-git clone https://github.com/abdallahddumbakato/my-portfolio.git
+git clone https://github.com/danielliu/my-portfolio.git
 
 # Install dependencies
 npm install
@@ -100,7 +100,7 @@ npm run build
 
 <div align="center">
 
-`Ddumba Abdallah Kato` · `abdallahddumbakato` · `Software Developer` · `Full Stack Developer` · `MERN Stack` · `Web Developer` · `React Developer` · `Next.js Expert` · `Database Developer` · `Frontend Specialist` · `Backend Developer` · `JavaScript Expert` · `TypeScript Developer` · `Node.js Developer` · `MongoDB Expert` · `SQL Developer`
+`Daniel Liu Kato` · `danielliu` · `Software Developer` · `Full Stack Developer` · `MERN Stack` · `Web Developer` · `React Developer` · `Next.js Expert` · `Database Developer` · `Frontend Specialist` · `Backend Developer` · `JavaScript Expert` · `TypeScript Developer` · `Node.js Developer` · `MongoDB Expert` · `SQL Developer`
 
 </div>
 
@@ -108,9 +108,9 @@ npm run build
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-a.ddumba%40kyakabi.com-red?style=for-the-badge&logo=gmail)](mailto:a.ddumba@kyakabi.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-abdallahddumbakato-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abdallahddumbakato)
-[![GitHub](https://img.shields.io/badge/GitHub-abdallahddumbakato--black?style=for-the-badge&logo=github)](https://github.com/abdallahddumbakato)
+[![Email](https://img.shields.io/badge/Email-a.ddumba%40kyakabi.com-red?style=for-the-badge&logo=gmail)](mailto:ehhsgd667@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-danielliu-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/danielliu)
+[![GitHub](https://img.shields.io/badge/GitHub-danielliu--black?style=for-the-badge&logo=github)](https://github.com/danielliu)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Connect-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+256701019242)
 
 </div>
@@ -119,7 +119,7 @@ npm run build
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=abdallahddumbakato&theme=dark)](https://github.com/abdallahddumbakato)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=danielliu&theme=dark)](https://github.com/danielliu)
 
 </div>
 
@@ -130,7 +130,7 @@ npm run build
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=abdallahddumbakato%2Fportfolio&label=Visitors&labelColor=%23000000&countColor=%2337d67a)](https://visitorbadge.io/status?path=abdallahddumbakato%2Fportfolio)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=danielliu%2Fportfolio&label=Visitors&labelColor=%23000000&countColor=%2337d67a)](https://visitorbadge.io/status?path=danielliu%2Fportfolio)
 
 <h3>⭐ Star this repo if you like it!</h3>
 

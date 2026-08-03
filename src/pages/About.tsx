@@ -36,9 +36,9 @@ const About = () => {
 	return (
 		<>
 			<SEO 
-				title="About Ddumba Abdallah Kato - Software Developer"
-				description="Learn about Ddumba Abdallah Kato, a passionate software developer specializing in full stack web development, database systems, and cloud computing. Based in Kampala, Uganda."
-				canonicalUrl="https://ddumba.kyakabi.com/about"
+				title="About Daniel Liu - Software Developer"
+				description="Learn about Daniel Liu, a passionate software developer specializing in full stack web development, database systems, and cloud computing. Based in California, US."
+				canonicalUrl="http://localhost:3000/about"
 			/>
 			<div className="min-h-screen pt-20 px-4 max-w-4xl mx-auto pb-20">
 				<ScrollAnimation>
@@ -52,7 +52,7 @@ const About = () => {
 						<div className="aspect-square overflow-hidden rounded-2xl">
 							<img
 								src="/profile/profile.jpg"
-								alt="Ddumba Abdallah Kato - Software Developer"
+								alt="Daniel Liu - Software Developer"
 								className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 							/>
 						</div>
@@ -61,13 +61,16 @@ const About = () => {
 					<ScrollAnimation className="space-y-6">
 						<div className="space-y-4">
 							<p className="text-gray-300 leading-relaxed">
-								Hi! I'm Ddumba Abdallah Kato, a passionate software developer with expertise in building modern web applications. My journey in tech started during my university years, where I discovered my love for creating innovative solutions through code.
+								Hi, I'm Daniel Liu, a Senior Software Engineer passionate about building scalable, reliable, and impactful digital solutions. With over 10 years of experience in software development, I have worked across fintech, healthcare, eCommerce, and enterprise platforms, helping businesses transform ideas into powerful products.
 							</p>
 							<p className="text-gray-300 leading-relaxed">
-								Currently pursuing my Bachelor of Science in Information Technology with a perfect 4.0 GPA at YMCA Comprehensive Institute, I've maintained strong academic performance while actively engaging in real-world projects. My previous Bachelor's degree in Computer Science with First Class Honours from Islamic University in Uganda has provided me with a solid foundation in software development.
+								My expertise spans full-stack development, cloud-native applications, microservices architecture, AI integrations, and modern web and mobile experiences. I enjoy working with technologies like Java, Python, TypeScript, React, React Native, Node.js, and cloud platforms to create solutions that are fast, secure, and easy to maintain.
 							</p>
 							<p className="text-gray-300 leading-relaxed">
-								I specialize in web technologies, database systems, and cloud computing, with a keen interest in creating performant and user-friendly applications. My experience includes working on various software development projects and continuously learning new technologies.
+								Throughout my career, I have designed enterprise systems, built AI-powered applications, optimized high-performance platforms, and collaborated with teams to deliver products used by real-world customers. I believe great software comes from a combination of strong engineering principles, thoughtful design, and a deep understanding of user needs.
+							</p>
+							<p className="text-gray-300 leading-relaxed">
+								Beyond writing code, I enjoy solving complex problems, exploring emerging technologies, mentoring developers, and continuously improving my craft. My goal is to create software that not only works well but also delivers meaningful value to people and businesses.
 							</p>
 						</div>
 
@@ -75,7 +78,7 @@ const About = () => {
 							<div className="pt-4">
 								<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
 								<ul className="list-none space-y-3">
-									{["Based in Kampala, Uganda", "BSc in Information Technology (Current) - 4.0/4.0 GPA", "BSc in Computer Science (First Class Honours) - 4.58/5.0 GPA"].map((fact, index) => (
+									{["Based in California, US", "BSc in Computer Science - 3.7/4.0 GPA"].map((fact, index) => (
 										<motion.li
 											key={fact}
 											className="flex items-center space-x-2 text-gray-300"
@@ -91,7 +94,7 @@ const About = () => {
 						<ScrollAnimation>
 							<div className="flex justify-start space-x-4">
 								<a
-									href="/files/cv_pdf/Ddumba_Abdallah_Kato_CV.pdf"
+									href="/files/cv_pdf/Daniel_Liu_Senior_Software_Engineer_Resume.pdf"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"

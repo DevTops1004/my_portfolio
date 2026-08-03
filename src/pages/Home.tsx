@@ -12,10 +12,10 @@ const fetcher = (url: string) => fetch(url).then(res => res.json());
 
 const Home = () => {
 	const [copied, setCopied] = useState(false);
-	const email = 'a.ddumba@kyakabi.com';
-	const whatsappNumber = '+256701019242';
+	const email = 'ehhsgd667@gmail.com';
+	const whatsappNumber = '+12028387418';
 
-	const { data: githubData } = useSWR('https://api.github.com/users/abdallahddumbakato', fetcher);
+	const { data: githubData } = useSWR('https://api.github.com/users/danielliu', fetcher);
 	function formatRepoCount(count: number): string {
 		if (count < 5) return count.toString();
 		return `${Math.floor(count / 5) * 5}+`;
@@ -45,9 +45,9 @@ const Home = () => {
 	return (
 		<>
 			<SEO 
-				title="Ddumba Abdallah Kato - Software Developer & Full Stack Specialist"
-				description="Software Developer specializing in Full Stack Development with expertise in Web Technologies, Database Systems and Cloud Computing. Based in Kampala, Uganda."
-				canonicalUrl="https://ddumba.kyakabi.com"
+				title="Daniel Liu - Software Developer & Full Stack Specialist"
+				description="Software Developer specializing in Full Stack Development with expertise in Web Technologies, Database Systems and Cloud Computing. Based in California, US."
+				canonicalUrl="http://localhost:3000"
 			/>
 			<div className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
 				<div className="text-center relative z-10 max-w-4xl mx-auto">
@@ -57,7 +57,7 @@ const Home = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8 }}
 					>
-						Ddumba .K. Abdallah
+						Daniel Liu
 					</motion.h1>
 					<motion.h1
 						className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -65,7 +65,7 @@ const Home = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8 }}
 					>
-						I design & code for web
+						Senior Software Engineer
 					</motion.h1>
 
 					<motion.p
@@ -74,7 +74,8 @@ const Home = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}
 					>
-						Software Developer specializing in Full Stack Development with expertise in Web Technologies, Database Systems and Cloud Computing.
+						Senior Software Engineer with 10+ years of experience building scalable applications across web, cloud, mobile, and AI-powered platforms. specialize in designing reliable systems and delivering innovative solutions across diverse technology environments.
+						<br></br>Let’s build the future together.
 					</motion.p>
 
 					<motion.div
@@ -85,7 +86,7 @@ const Home = () => {
 					>
 						<div className="flex justify-center space-x-3 sm:space-x-4">
 							<a
-								href="/files/cv_pdf/Ddumba_Abdallah_Kato_CV.pdf"
+								href="/files/cv_pdf/Daniel_Liu_Senior_Software_Engineer_Resume.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white text-black rounded-full text-sm sm:text-base font-medium hover:bg-gray-100 transition-colors flex items-center gap-2"
@@ -124,13 +125,13 @@ const Home = () => {
 					</motion.div>
 
 					<motion.div
-						className="grid grid-cols-3 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
+						className="grid grid-cols-2 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 0.8, delay: 0.6 }}
 					>
 						<motion.a
-							href="https://github.com/Hatalabdallah"
+							href="https://github.com/DevTops1004"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="flex flex-col items-center group w-full"
@@ -150,27 +151,7 @@ const Home = () => {
 							</motion.div>
 						</motion.a>
 
-						<motion.a
-							href="https://twitter.com/Hatalabdallah" // Use x.com for the new link
-							target="_blank"
-							rel="noopener noreferrer"
-							className="flex flex-col items-center group w-full"
-							whileHover={{ y: -2 }}
-						>
-							<div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
-								{/* Replace Github/Linkedin with your icon component */}
-								<X className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
-							</div>
-							<motion.div
-								className="flex flex-col items-center"
-								initial={{ opacity: 0 }}
-								animate={{ opacity: 1 }}
-								transition={{ delay: 0.8 }}
-							>
-								<span className="text-base sm:text-lg font-semibold">Follow</span>
-								<span className="text-xs sm:text-sm text-gray-400">Twitter (X)</span>
-							</motion.div>
-						</motion.a>
+
 
 						<motion.a
 							href={`https://wa.me/${whatsappNumber}`}

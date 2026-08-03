@@ -5,8 +5,8 @@ import { Code2, Github, Linkedin, Mail, Phone, Users, Send, MessageSquare } from
 
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
-	const email = 'a.ddumba@kyakabi.com';
-	const whatsappNumber = '+256701019242';
+	const email = 'ehhsgd667@gmail.com';
+	const whatsappNumber = '+12028387418';
 
 	const pageLinks = [
 		{ name: 'Home', path: '/' },
@@ -35,10 +35,10 @@ const Footer = () => {
 					<div className="space-y-4">
 						<Link href="/" className="flex items-center space-x-3">
 							<Code2 className="w-8 h-8 text-white" />
-							<span className="text-xl font-bold text-white">Ddumba Abdallah Kato</span>
+							<span className="text-xl font-bold text-white">Daniel Liu</span>
 						</Link>
 						<p className="text-sm text-gray-400">
-							Software Developer based in Kampala, Uganda.
+							Senior Software Engineer based in California, US.
 						</p>
 					</div>
 
@@ -47,18 +47,18 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Contact</h3>
 						<ul className="space-y-3">
 							<li>
-								<a href="mailto:a.ddumba@kyakabi.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+								<a href="mailto:ehhsgd667@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 									<Mail className="w-4 h-4" />
-									a.ddumba@kyakabi.com
+									ehhsgd667@gmail.com
 								</a>
 							</li>
 							<li>
 								<a
-									href="tel:+256701019242"
+									href="tel:+12028387418"
 									className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
 								>
 									<Phone className="w-4 h-4" />
-									+256701019242
+									+12028387418
 								</a>
 							</li>
 						</ul>
@@ -112,7 +112,7 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Social</h3>
 						<div className="flex space-x-4">
 							<a
-								href="https://github.com/abdallahddumbakato"
+								href="https://github.com/danielliu"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
@@ -120,7 +120,7 @@ const Footer = () => {
 								<Github className="w-5 h-5" />
 							</a>
 							<a
-								href="https://ug.linkedin.com/in/abdallah-ddumba-kato-414462236"
+								href="https://ug.linkedin.com/in/abdallah-Daniel-kato-414462236"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-gray-400 hover:text-white transition-colors"
@@ -132,26 +132,6 @@ const Footer = () => {
 								className="text-gray-400 hover:text-white transition-colors"
 							>
 								<Mail className="w-5 h-5" />
-							</a>
-
-							{/* New: Twitter Alternative */}
-							<a
-								href="https://twitter.com/Hatalabdallah"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<MessageSquare className="w-5 h-5" /> 
-							</a>
-
-							{/* New: Facebook Alternative */}
-							<a
-								href="https://www.facebook.com/abdallahddumba.kato/"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Users className="w-5 h-5" />
 							</a>
 							
 							{/* New: WhatsApp Alternative */}
@@ -171,14 +151,14 @@ const Footer = () => {
 				<div className="border-t border-white/10 py-6">
 					<div className="flex flex-col md:flex-row justify-between items-center">
 						<p className="text-sm text-gray-400">
-							© {currentYear} Ddumba Abdallah Kato. All rights reserved.
+							© {currentYear} Daniel Liu. All rights reserved.
 						</p>
 						<div className="flex space-x-6 mt-4 md:mt-0">
 							<a href="" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 								<svg className="w-3 h-3" fill="currentColor" viewBox="0 0 32 32">
 									<path d="M12 1L24 22H0L12 1Z" />
 								</svg>
-								Ddumba's Portfolio
+								Daniel's Portfolio
 							</a>
 						</div>
 					</div>

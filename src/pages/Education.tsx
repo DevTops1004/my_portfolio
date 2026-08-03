@@ -10,7 +10,7 @@ const Education = () => {
 	const educationData = [
 		{
 			school: "YMCA Comprehensive Institute",
-			location: "Kampala, Uganda",
+			location: "California, US",
 			duration: "2023 - PRESENT",
 			degree: "Bachelor of Science in Information Technology (Final Year)",
 			grade: "GPA: 4.0/4.0",
@@ -90,9 +90,9 @@ const Education = () => {
 	return (
 		<>
 			<SEO 
-				title="Education & Academic Background - Ddumba Abdallah Kato"
+				title="Education & Academic Background - Daniel Liu"
 				description="View my academic journey including Bachelor of Science in Information Technology (4.0 GPA), Computer Science (First Class Honours), and secondary education achievements from Uganda."
-				canonicalUrl="https://ddumba.kyakabi.com/education"
+				canonicalUrl="http://localhost:3000/education"
 			/>
 			<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
 				<ScrollAnimation>

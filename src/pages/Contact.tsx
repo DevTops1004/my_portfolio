@@ -59,19 +59,19 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'a.ddumba@kyakabi.com',
-			link: 'mailto:a.ddumba@kyakabi.com'
+			value: 'ehhsgd667@gmail.com',
+			link: 'mailto:ehhsgd667@gmail.com'
 		},
 		{
 			icon: <Phone className="w-5 h-5" />,
 			label: 'Phone',
-			value: '+256701019242',
-			link: 'tel:+256701019242'
+			value: '+12028387418',
+			link: 'tel:+12028387418'
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
 			label: 'Location',
-			value: 'Kampala, Uganda'
+			value: 'California, US'
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
@@ -84,7 +84,7 @@ const Contact = () => {
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/Abdallahddumbakato'
+			link: 'https://github.com/danielliu'
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
@@ -94,16 +94,16 @@ const Contact = () => {
 		{
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
-			link: 'https://wa.me/+256701019242'
+			link: 'https://wa.me/+12028387418'
 		}
 	];
 
 	return (
 		<>
 			<SEO 
-				title="Contact Ddumba Abdallah Kato - Software Developer"
-				description="Get in touch with Ddumba Abdallah Kato for web development projects, software consulting, or collaboration opportunities. Contact via email, phone, or WhatsApp from Kampala, Uganda."
-				canonicalUrl="https://ddumba.kyakabi.com/contact"
+				title="Contact Daniel Liu - Software Developer"
+				description="Get in touch with Daniel Liu for web development projects, software consulting, or collaboration opportunities. Contact via email, phone, or WhatsApp from California, US."
+				canonicalUrl="http://localhost:3000/contact"
 			/>
 			<div className="min-h-screen pt-16 sm:pt-20 px-4 max-w-6xl mx-auto pb-16 sm:pb-20">
 				<motion.div

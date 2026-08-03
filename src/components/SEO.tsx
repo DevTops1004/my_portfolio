@@ -9,13 +9,13 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Ddumba Abdallah Kato - Software Developer & Full Stack Specialist",
-  description = "Software Developer specializing in Full Stack Development with expertise in Web Technologies, Database Systems and Cloud Computing. Based in Kampala, Uganda.",
-  canonicalUrl = "https://ddumba.kyakabi.com",
-  ogImage = "https://ddumba.kyakabi.com/og-image.jpg",
+  title = "Daniel Liu - Software Developer & Full Stack Specialist",
+  description = "Software Developer specializing in Full Stack Development with expertise in Web Technologies, Database Systems and Cloud Computing. Based in California, US.",
+  canonicalUrl = "http://localhost:3000",
+  ogImage = "http://localhost:3000/og-image.jpg",
   ogType = "website"
 }) => {
-  const siteTitle = "Ddumba Abdallah Kato - Portfolio";
+  const siteTitle = "Daniel Liu - Portfolio";
   const fullTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
 
   return (
@@ -24,7 +24,7 @@ const SEO: React.FC<SEOProps> = ({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="canonical" href={canonicalUrl} />
+      {/* <link rel="canonical" href={canonicalUrl} /> */}
       
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={fullTitle} />
@@ -32,7 +32,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:site_name" content="Ddumba Abdallah Kato Portfolio" />
+      <meta property="og:site_name" content="Daniel Liu Portfolio" />
       
       {/* Twitter Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -41,8 +41,8 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:image" content={ogImage} />
       
       {/* Additional SEO Tags */}
-      <meta name="keywords" content="software developer, full stack developer, web developer, Kampala, Uganda, React, Node.js, MongoDB, AWS, portfolio" />
-      <meta name="author" content="Ddumba Abdallah Kato" />
+      <meta name="keywords" content="software developer, full stack developer, web developer, California, US, React, Node.js, MongoDB, AWS, portfolio" />
+      <meta name="author" content="Daniel Liu" />
       <meta name="robots" content="index, follow" />
       
       {/* Structured Data */}
@@ -52,11 +52,11 @@ const SEO: React.FC<SEOProps> = ({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Ddumba Abdallah Kato",
+            "name": "Daniel Liu",
             "jobTitle": "Software Developer",
-            "url": "https://ddumba.kyakabi.com",
+            "url": "http://localhost:3000",
             "sameAs": [
-              "https://github.com/abdallahddumbakato",
+              "https://github.com/danielliu",
               "https://linkedin.com/in/Hatalabdallah"
             ],
             "knowsAbout": [
