@@ -9,13 +9,12 @@ import SEO from '@/components/SEO';
 const Education = () => {
 	const educationData = [
 		{
-			school: "YMCA Comprehensive Institute",
+			school: "University of Central Oklahoma",
 			location: "California, US",
-			duration: "2023 - PRESENT",
-			degree: "Bachelor of Science in Information Technology (Final Year)",
-			grade: "GPA: 4.0/4.0",
-			image: "/education/graduation-ymca-1.jpg",
-			resultUrl: "/files/education_pdf/Transcript.pdf",
+			duration: "2012 - 2016",
+			degree: "Bachelor of Science in Computer Science (2016)",
+			grade: "GPA: 3.7/4.0",
+			image: "/education/graduation.png",
 			coursework: [
 				"Web Technologies",
 				"Database Systems", 
@@ -24,74 +23,15 @@ const Education = () => {
 				"Algorithms",
 				"Network Security"
 			],
-			description: "Currently pursuing my Bachelor's degree in Information Technology with a perfect 4.0 GPA. My studies focus on modern web technologies, database management systems, and cloud computing. I'm actively engaged in practical projects that apply theoretical knowledge to real-world software development challenges."
+			description: "Currently pursuing my Bachelor's degree in Computer Science with 3.7 GPA. My studies focus on modern web technologies, database management systems, and cloud computing. I'm actively engaged in practical projects that apply theoretical knowledge to real-world software development challenges."
 		},
-		{
-			school: "Islamic University in Uganda",
-			location: "Mbale, Uganda", 
-			duration: "2015 - 2018",
-			degree: "Bachelor of Science in Computer Science, First Class Honours",
-			grade: "GPA: 4.58/5.0",
-			image: "/education/school_img.jpg",
-			resultUrl: "/files/education_pdf/HS MARK SHEET.pdf",
-			coursework: [
-				"Database Systems",
-				"Software Engineering",
-				"Algorithms",
-				"Data Structures",
-				"Operating Systems",
-				"Computer Networks"
-			],
-			description: "Graduated with First Class Honours in Computer Science, building a strong foundation in software development principles. The program emphasized database systems, software engineering methodologies, and algorithmic problem-solving, providing me with comprehensive technical skills for professional software development."
-		},
-		{
-			school: "Kyaddondo Secondary School",
-			location: "P.O Box 25355 Kampala | Kiryagonja Village, Matugga Along Matugga - Wakiso Road, In Matugga Village",
-			duration: "2013",
-			degree: "Uganda Advanced Certificate of Education (UACE)",
-			grade: "Principal Level: Geometrical & Building Drawing (Grade C)",
-			image: "/education/kyaddondoss-aerial.JPG",
-			resultUrl: "/files/education_pdf/UACE.pdf",
-			subjects: [
-				"Geometrical & Building Drawing (Principal)",
-				"General Paper (Subsidiary)",
-				"Mathematics (Subsidiary)", 
-				"Physics (Subsidiary)",
-				"Subsidiary Computer"
-			],
-			description: "Completed Uganda Advanced Certificate of Education at age 19 with principal level in Geometrical & Building Drawing. The curriculum provided a strong foundation in technical drawing and scientific subjects, developing analytical and problem-solving skills.",
-			achievement: "Principal level achievement in technical drawing subjects"
-		},
-		{
-			school: "Kyaddondo Secondary School", 
-			location: "P.O Box 25355 Kampala | Kiryagonja Village, Matugga Along Matugga - Wakiso Road, In Matugga Village",
-			duration: "2010",
-			degree: "Uganda Certificate of Education (UCE)",
-			grade: "Division I (First Division)",
-			image: "/education/kyaddondoss-aerial2.jpg",
-			resultUrl: "/files/education_pdf/UCE.pdf",
-			subjects: [
-				"Islamic Religious Education (Grade 1)",
-				"Mathematics (Grade 2)",
-				"History (Grade 2)",
-				"English (Grade 4)",
-				"Geography (Grade 4)",
-				"Physics (Grade 4)",
-				"Chemistry (Grade 4)",
-				"Biology (Grade 4)",
-				"Technical Drawing (Grade 4)",
-				"Commerce (Grade 4)"
-			],
-			description: "Completed Uganda Certificate of Education with Division I (First Division) at age 16, passing all 10 subjects taken. Demonstrated strong academic performance with excellent results in Islamic Religious Education, Mathematics, and History.",
-			achievement: "Completed UCE with Division I at age 16, passing all 10 subjects"
-		}
 	];
 
 	return (
 		<>
 			<SEO 
 				title="Education & Academic Background - Daniel Liu"
-				description="View my academic journey including Bachelor of Science in Information Technology (4.0 GPA), Computer Science (First Class Honours), and secondary education achievements from Uganda."
+				description="View my academic journey including Bachelor of Science in Computer Science (3.7 GPA), Computer Science (First Class Honours), and secondary education achievements from US."
 				canonicalUrl="http://localhost:3000/education"
 			/>
 			<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">
