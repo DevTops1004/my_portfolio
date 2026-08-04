@@ -100,7 +100,7 @@ const Education = () => {
 											<p className="text-sm leading-relaxed">{edu.description}</p>
 										</div>
 
-										{edu.achievement && (
+										{/* {edu.achievement && (
 											<div className="mb-4 p-3 bg-yellow-500/10 border border-yellow-500/20 rounded-lg">
 												<div className="flex items-center gap-2 text-yellow-400">
 													<Star className="w-4 h-4" />
@@ -108,7 +108,7 @@ const Education = () => {
 												</div>
 												<p className="text-yellow-300 text-sm mt-1">{edu.achievement}</p>
 											</div>
-										)}
+										)} */}
 
 										{edu.coursework && (
 											<div className="mb-6">
