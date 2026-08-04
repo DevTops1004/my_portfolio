@@ -100,16 +100,6 @@ const Education = () => {
 											<p className="text-sm leading-relaxed">{edu.description}</p>
 										</div>
 
-										{edu.achievement && (
-											<div className="mb-4 p-3 bg-yellow-500/10 border border-yellow-500/20 rounded-lg">
-												<div className="flex items-center gap-2 text-yellow-400">
-													<Star className="w-4 h-4" />
-													<span className="text-sm font-semibold">Key Achievement:</span>
-												</div>
-												<p className="text-yellow-300 text-sm mt-1">{edu.achievement}</p>
-											</div>
-										)}
-
 										{edu.coursework && (
 											<div className="mb-6">
 												<h5 className="text-sm font-semibold mb-3 text-gray-300">Relevant Coursework:</h5>
@@ -126,24 +116,8 @@ const Education = () => {
 											</div>
 										)}
 
-										{edu.subjects && (
-											<div className="mb-6">
-												<h5 className="text-sm font-semibold mb-3 text-gray-300">Subjects:</h5>
-												<div className="flex flex-wrap gap-2">
-													{edu.subjects.map((subject) => (
-														<span
-															key={subject}
-															className="px-3 py-1 bg-white/10 rounded-full text-sm"
-														>
-															{subject}
-														</span>
-													))}
-												</div>
-											</div>
-										)}
-
 										<motion.a
-											href={edu.resultUrl}
+											href={""}
 											target="_blank"
 											rel="noopener noreferrer"
 											className="inline-flex items-center gap-2 px-6 py-2.5 bg-white/10 hover:bg-white/20 rounded-lg transition-all text-sm font-medium"
